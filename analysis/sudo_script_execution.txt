@@ -1,0 +1,1 @@
+2026-01-31T02:44:12.088931+00:00 uttej sudo:    uttej : TTY=pts/0 ; PWD=/mnt/c/Users/uttej/soc-log-analysis ; USER=root ; COMMAND=/usr/bin/grep 'sshd.*Failed password' logs/auth.log

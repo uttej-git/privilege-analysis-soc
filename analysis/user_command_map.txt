@@ -1,0 +1,14 @@
+2026-01-31T02:36:23.199692+00:00 uttej sudo:    uttej : TTY=pts/0 ; PWD=/mnt/c/Users/uttej ; USER=root ;  --> /usr/bin/apt update
+2026-01-31T02:36:43.623277+00:00 uttej sudo:    uttej : TTY=pts/0 ; PWD=/mnt/c/Users/uttej ; USER=root ;  --> /usr/bin/apt upgrade -y
+2026-01-31T02:39:07.718688+00:00 uttej sudo:    uttej : TTY=pts/0 ; PWD=/mnt/c/Users/uttej/soc-log-analysis ; USER=root ;  --> /usr/bin/cp /var/log/auth.log logs/
+2026-01-31T02:40:30.187184+00:00 uttej sudo:    uttej : TTY=pts/0 ; PWD=/mnt/c/Users/uttej/soc-log-analysis ; USER=root ;  --> /usr/bin/cat /var/log/auth.log
+2026-01-31T02:40:48.621099+00:00 uttej sudo:    uttej : TTY=pts/0 ; PWD=/mnt/c/Users/uttej/soc-log-analysis ; USER=root ;  --> /usr/bin/cp /var/log/auth.log logs/
+2026-01-31T02:40:53.460640+00:00 uttej sudo:    uttej : TTY=pts/0 ; PWD=/mnt/c/Users/uttej/soc-log-analysis ; USER=root ;  --> /usr/bin/grep 'Failed password' logs/auth.log
+2026-01-31T02:42:27.738073+00:00 uttej sudo:    uttej : TTY=pts/0 ; PWD=/mnt/c/Users/uttej/soc-log-analysis ; USER=root ;  --> /usr/bin/tee -a /var/log/auth.log
+2026-01-31T02:42:38.099509+00:00 uttej sudo:    uttej : TTY=pts/0 ; PWD=/mnt/c/Users/uttej/soc-log-analysis ; USER=root ;  --> /usr/bin/grep 'Failed password' logs/auth.log
+2026-01-31T02:42:43.145612+00:00 uttej sudo:    uttej : TTY=pts/0 ; PWD=/mnt/c/Users/uttej/soc-log-analysis ; USER=root ;  --> /usr/bin/tee -a /var/log/auth.log
+2026-01-31T02:42:47.160664+00:00 uttej sudo:    uttej : TTY=pts/0 ; PWD=/mnt/c/Users/uttej/soc-log-analysis ; USER=root ;  --> /usr/bin/grep 'Failed password' logs/auth.log
+2026-01-31T02:43:09.536881+00:00 uttej sudo:    uttej : TTY=pts/0 ; PWD=/mnt/c/Users/uttej/soc-log-analysis ; USER=root ;  --> /usr/bin/grep 'Failed password' /var/log/auth.log
+2026-01-31T02:44:06.664791+00:00 uttej sudo:    uttej : TTY=pts/0 ; PWD=/mnt/c/Users/uttej/soc-log-analysis ; USER=root ;  --> /usr/bin/cp /var/log/auth.log logs/auth.log
+2026-01-31T02:44:12.088931+00:00 uttej sudo:    uttej : TTY=pts/0 ; PWD=/mnt/c/Users/uttej/soc-log-analysis ; USER=root ;  --> /usr/bin/grep 'sshd.*Failed password' logs/auth.log
+2026-01-31T03:23:09.783167+00:00 uttej sudo:    uttej : TTY=pts/0 ; PWD=/home/uttej/sudo-privilege-analysis ; USER=root ;  --> /usr/bin/cp /var/log/auth.log logs/

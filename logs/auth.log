@@ -1,0 +1,94 @@
+2026-01-31T02:31:47.760539+00:00 uttej systemd-logind[197]: New seat seat0.
+2026-01-31T02:34:37.880921+00:00 uttej groupadd[448]: group added to /etc/group: name=uttej, GID=1000
+2026-01-31T02:34:37.889877+00:00 uttej groupadd[448]: group added to /etc/gshadow: name=uttej
+2026-01-31T02:34:37.892880+00:00 uttej groupadd[448]: new group: name=uttej, GID=1000
+2026-01-31T02:34:37.940626+00:00 uttej useradd[455]: new user: name=uttej, UID=1000, GID=1000, home=/home/uttej, shell=/bin/bash, from=/dev/pts/0
+2026-01-31T02:34:59.906011+00:00 uttej passwd[468]: pam_unix(passwd:chauthtok): password changed for uttej
+2026-01-31T02:34:59.934238+00:00 uttej chfn[469]: changed user 'uttej' information
+2026-01-31T02:34:59.983809+00:00 uttej gpasswd[477]: members of group users set by root to uttej
+2026-01-31T02:35:00.031867+00:00 uttej usermod[483]: add 'uttej' to group 'adm'
+2026-01-31T02:35:00.032395+00:00 uttej usermod[483]: add 'uttej' to group 'cdrom'
+2026-01-31T02:35:00.032633+00:00 uttej usermod[483]: add 'uttej' to group 'sudo'
+2026-01-31T02:35:00.032748+00:00 uttej usermod[483]: add 'uttej' to group 'dip'
+2026-01-31T02:35:00.032873+00:00 uttej usermod[483]: add 'uttej' to group 'plugdev'
+2026-01-31T02:35:00.032997+00:00 uttej usermod[483]: add 'uttej' to shadow group 'adm'
+2026-01-31T02:35:00.033070+00:00 uttej usermod[483]: add 'uttej' to shadow group 'cdrom'
+2026-01-31T02:35:00.033132+00:00 uttej usermod[483]: add 'uttej' to shadow group 'sudo'
+2026-01-31T02:35:00.033358+00:00 uttej usermod[483]: add 'uttej' to shadow group 'dip'
+2026-01-31T02:35:00.033472+00:00 uttej usermod[483]: add 'uttej' to shadow group 'plugdev'
+2026-01-31T02:35:00.093030+00:00 uttej login[498]: PAM unable to dlopen(pam_lastlog.so): /usr/lib/security/pam_lastlog.so: cannot open shared object file: No such file or directory
+2026-01-31T02:35:00.093477+00:00 uttej login[498]: PAM adding faulty module: pam_lastlog.so
+2026-01-31T02:35:00.596735+00:00 uttej login[498]: pam_unix(login:session): session opened for user uttej(uid=1000) by uttej(uid=0)
+2026-01-31T02:35:00.671785+00:00 uttej systemd-logind[197]: New session 1 of user uttej.
+2026-01-31T02:35:00.701048+00:00 uttej (systemd): pam_unix(systemd-user:session): session opened for user uttej(uid=1000) by uttej(uid=0)
+2026-01-31T02:36:23.199692+00:00 uttej sudo:    uttej : TTY=pts/0 ; PWD=/mnt/c/Users/uttej ; USER=root ; COMMAND=/usr/bin/apt update
+2026-01-31T02:36:23.200846+00:00 uttej sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2026-01-31T02:36:36.633918+00:00 uttej polkitd[914]: Loading rules from directory /etc/polkit-1/rules.d
+2026-01-31T02:36:36.634572+00:00 uttej polkitd[914]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-01-31T02:36:36.639283+00:00 uttej polkitd[914]: Finished loading, compiling and executing 4 rules
+2026-01-31T02:36:36.641898+00:00 uttej polkitd[914]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2026-01-31T02:36:43.615754+00:00 uttej sudo: pam_unix(sudo:session): session closed for user root
+2026-01-31T02:36:43.623277+00:00 uttej sudo:    uttej : TTY=pts/0 ; PWD=/mnt/c/Users/uttej ; USER=root ; COMMAND=/usr/bin/apt upgrade -y
+2026-01-31T02:36:43.623961+00:00 uttej sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2026-01-31T02:37:13.285608+00:00 uttej polkitd[914]: Reloading rules
+2026-01-31T02:37:13.286861+00:00 uttej polkitd[914]: Collecting garbage unconditionally...
+2026-01-31T02:37:13.287317+00:00 uttej polkitd[914]: Loading rules from directory /etc/polkit-1/rules.d
+2026-01-31T02:37:13.287879+00:00 uttej polkitd[914]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-01-31T02:37:13.288127+00:00 uttej polkitd[914]: Finished loading, compiling and executing 4 rules
+2026-01-31T02:37:13.288583+00:00 uttej polkitd[914]: Reloading rules
+2026-01-31T02:37:13.288924+00:00 uttej polkitd[914]: Collecting garbage unconditionally...
+2026-01-31T02:37:13.289033+00:00 uttej polkitd[914]: Loading rules from directory /etc/polkit-1/rules.d
+2026-01-31T02:37:13.289568+00:00 uttej polkitd[914]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-01-31T02:37:13.291538+00:00 uttej polkitd[914]: Finished loading, compiling and executing 4 rules
+2026-01-31T02:37:29.747062+00:00 uttej polkitd[914]: Reloading rules
+2026-01-31T02:37:29.748120+00:00 uttej polkitd[914]: Collecting garbage unconditionally...
+2026-01-31T02:37:29.748409+00:00 uttej polkitd[914]: Loading rules from directory /etc/polkit-1/rules.d
+2026-01-31T02:37:29.748570+00:00 uttej polkitd[914]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-01-31T02:37:29.749404+00:00 uttej polkitd[914]: Finished loading, compiling and executing 4 rules
+2026-01-31T02:37:29.749789+00:00 uttej polkitd[914]: Reloading rules
+2026-01-31T02:37:29.750264+00:00 uttej polkitd[914]: Collecting garbage unconditionally...
+2026-01-31T02:37:29.750927+00:00 uttej polkitd[914]: Loading rules from directory /etc/polkit-1/rules.d
+2026-01-31T02:37:29.751060+00:00 uttej polkitd[914]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-01-31T02:37:29.751777+00:00 uttej polkitd[914]: Finished loading, compiling and executing 4 rules
+2026-01-31T02:37:57.009339+00:00 uttej sudo: pam_unix(sudo:session): session closed for user root
+2026-01-31T02:39:07.718688+00:00 uttej sudo:    uttej : TTY=pts/0 ; PWD=/mnt/c/Users/uttej/soc-log-analysis ; USER=root ; COMMAND=/usr/bin/cp /var/log/auth.log logs/
+2026-01-31T02:39:07.719780+00:00 uttej sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2026-01-31T02:39:07.739050+00:00 uttej sudo: pam_unix(sudo:session): session closed for user root
+2026-01-31T02:40:30.187184+00:00 uttej sudo:    uttej : TTY=pts/0 ; PWD=/mnt/c/Users/uttej/soc-log-analysis ; USER=root ; COMMAND=/usr/bin/cat /var/log/auth.log
+2026-01-31T02:40:30.188818+00:00 uttej sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2026-01-31T02:40:30.194842+00:00 uttej sudo: pam_unix(sudo:session): session closed for user root
+2026-01-31T02:40:48.621099+00:00 uttej sudo:    uttej : TTY=pts/0 ; PWD=/mnt/c/Users/uttej/soc-log-analysis ; USER=root ; COMMAND=/usr/bin/cp /var/log/auth.log logs/
+2026-01-31T02:40:48.624105+00:00 uttej sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2026-01-31T02:40:48.658133+00:00 uttej sudo: pam_unix(sudo:session): session closed for user root
+2026-01-31T02:40:53.460640+00:00 uttej sudo:    uttej : TTY=pts/0 ; PWD=/mnt/c/Users/uttej/soc-log-analysis ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' logs/auth.log
+2026-01-31T02:40:53.462009+00:00 uttej sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2026-01-31T02:40:53.490972+00:00 uttej sudo: pam_unix(sudo:session): session closed for user root
+2026-01-31T02:42:27.738073+00:00 uttej sudo:    uttej : TTY=pts/0 ; PWD=/mnt/c/Users/uttej/soc-log-analysis ; USER=root ; COMMAND=/usr/bin/tee -a /var/log/auth.log
+2026-01-31T02:42:27.745610+00:00 uttej sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Jan 31 03:10:12 uttej sshd[999]: Failed password for invalid user admin from 192.168.56.101 port 55221 ssh2
+2026-01-31T02:42:27.748398+00:00 uttej sudo: pam_unix(sudo:session): session closed for user root
+2026-01-31T02:42:38.099509+00:00 uttej sudo:    uttej : TTY=pts/0 ; PWD=/mnt/c/Users/uttej/soc-log-analysis ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' logs/auth.log
+2026-01-31T02:42:38.101579+00:00 uttej sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2026-01-31T02:42:38.132251+00:00 uttej sudo: pam_unix(sudo:session): session closed for user root
+2026-01-31T02:42:43.145612+00:00 uttej sudo:    uttej : TTY=pts/0 ; PWD=/mnt/c/Users/uttej/soc-log-analysis ; USER=root ; COMMAND=/usr/bin/tee -a /var/log/auth.log
+2026-01-31T02:42:43.152303+00:00 uttej sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Jan 31 03:10:12 uttej sshd[999]: Failed password for invalid user admin from 192.168.56.101 port 55221 ssh2
+2026-01-31T02:42:43.158446+00:00 uttej sudo: pam_unix(sudo:session): session closed for user root
+2026-01-31T02:42:47.160664+00:00 uttej sudo:    uttej : TTY=pts/0 ; PWD=/mnt/c/Users/uttej/soc-log-analysis ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' logs/auth.log
+2026-01-31T02:42:47.161502+00:00 uttej sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2026-01-31T02:42:47.190177+00:00 uttej sudo: pam_unix(sudo:session): session closed for user root
+2026-01-31T02:43:09.536881+00:00 uttej sudo:    uttej : TTY=pts/0 ; PWD=/mnt/c/Users/uttej/soc-log-analysis ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2026-01-31T02:43:09.539182+00:00 uttej sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2026-01-31T02:43:09.545262+00:00 uttej sudo: pam_unix(sudo:session): session closed for user root
+2026-01-31T02:44:06.664791+00:00 uttej sudo:    uttej : TTY=pts/0 ; PWD=/mnt/c/Users/uttej/soc-log-analysis ; USER=root ; COMMAND=/usr/bin/cp /var/log/auth.log logs/auth.log
+2026-01-31T02:44:06.666008+00:00 uttej sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2026-01-31T02:44:06.701108+00:00 uttej sudo: pam_unix(sudo:session): session closed for user root
+2026-01-31T02:44:12.088931+00:00 uttej sudo:    uttej : TTY=pts/0 ; PWD=/mnt/c/Users/uttej/soc-log-analysis ; USER=root ; COMMAND=/usr/bin/grep 'sshd.*Failed password' logs/auth.log
+2026-01-31T02:44:12.093341+00:00 uttej sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2026-01-31T02:44:12.111526+00:00 uttej sudo: pam_unix(sudo:session): session closed for user root
+2026-01-31T03:10:01.513382+00:00 uttej CRON[6084]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-31T03:10:01.526558+00:00 uttej CRON[6084]: pam_unix(cron:session): session closed for user root
+2026-01-31T03:17:01.586881+00:00 uttej CRON[6132]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-31T03:17:01.608599+00:00 uttej CRON[6132]: pam_unix(cron:session): session closed for user root
+2026-01-31T03:23:09.783167+00:00 uttej sudo:    uttej : TTY=pts/0 ; PWD=/home/uttej/sudo-privilege-analysis ; USER=root ; COMMAND=/usr/bin/cp /var/log/auth.log logs/
+2026-01-31T03:23:09.795560+00:00 uttej sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)

@@ -1,0 +1,14 @@
+/usr/bin/apt update
+/usr/bin/apt upgrade -y
+/usr/bin/cp /var/log/auth.log logs/
+/usr/bin/cat /var/log/auth.log
+/usr/bin/cp /var/log/auth.log logs/
+/usr/bin/grep 'Failed password' logs/auth.log
+/usr/bin/tee -a /var/log/auth.log
+/usr/bin/grep 'Failed password' logs/auth.log
+/usr/bin/tee -a /var/log/auth.log
+/usr/bin/grep 'Failed password' logs/auth.log
+/usr/bin/grep 'Failed password' /var/log/auth.log
+/usr/bin/cp /var/log/auth.log logs/auth.log
+/usr/bin/grep 'sshd.*Failed password' logs/auth.log
+/usr/bin/cp /var/log/auth.log logs/
